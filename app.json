@@ -1,0 +1,47 @@
+{
+  "expo": {
+    "name": "UND · AVAI",
+    "slug": "und-avai",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#0a0a0f",
+    "primaryColor": "#d4a843",
+
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0a0a0f"
+    },
+
+    "android": {
+      "package": "com.nomadadigital.avai",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0a0a0f"
+      },
+      "statusBarColor": "#0a0a0f",
+      "statusBarStyle": "light"
+    },
+
+    "ios": {
+      "bundleIdentifier": "com.nomadadigital.avai",
+      "buildNumber": "1.0.0",
+      "supportsTablet": false
+    },
+
+    "extra": {
+      "eas": {
+        "projectId": "tu-project-id-aqui"
+      }
+    },
+
+    "plugins": [],
+
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
