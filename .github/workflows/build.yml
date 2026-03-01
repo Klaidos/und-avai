@@ -11,13 +11,14 @@ jobs:
     env:
       EXPO_TOKEN: ${{ secrets.EXPO_TOKEN }}
     steps:
-      - name: Checkout cÃ³digo
+      - name: Checkout código
         uses: actions/checkout@v4
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '20'
+          cache: ''
 
       - name: Setup Expo
         uses: expo/expo-github-action@v8
